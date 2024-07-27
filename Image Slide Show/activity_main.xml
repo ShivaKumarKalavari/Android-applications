@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="35dp"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.week8.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="359dp"
+        android:layout_height="606dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/image_slideshow" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="145dp"
+        android:layout_height="39dp"
+        android:text="Shiva Kumar"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
